@@ -126,6 +126,52 @@ Usuario: andresh
 Pass: DemoGestion49@
 Videos demo: https://drive.google.com/drive/folders/1GcZBnbpQoFqQrYYQoDUgDDKUgaYvY7fy?usp=drive_link
 
+## 📸 Interface Preview
+
+
+### Investment Admin Detail Panel
+
+
+![Investment Admin Detail](assets/screenshots/demo-02.png)
+
+![Add new deposit](assets/screenshots/demo-01.png)
+
+---
+
+### Admin Accounts List
+
+
+![Admin Accounts List](assets/screenshots/demo-09.png)
+
+
+---
+
+### Full Report
+
+
+![Full Report](assets/screenshots/demo-03.png)
+
+---
+
+### NFT Accocunts Panel
+
+
+![NFT Accounts Panel](assets/screenshots/demo-04.png)
+
+---
+
+### Users Control Panel
+
+
+![Users Control Panel](assets/screenshots/demo-05.png)
+
+---
+
+### Home Panel
+
+
+![Home](assets/screenshots/demo-06.png)
+
 ## 👨‍💻 Author
 
 Uriel Plata  
