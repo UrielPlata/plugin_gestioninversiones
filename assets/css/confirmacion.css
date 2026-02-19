@@ -1,0 +1,143 @@
+#header, #footer, hr{
+  display: none;
+}
+
+a.logo_theinc{
+  background-image: url(../img/logo_theinc.png);
+  height: 125px;
+  width:100%;
+  margin: 0 0 25px;
+  background-size: 75%;
+  background-position: center;
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+
+.page_confirmacion{
+  min-height: 100vh;
+  background-color: #212038;
+  padding: 3.8rem 0;
+}
+
+.espera_confirmacion{
+  display: flex;
+   align-items: center;
+   min-height: 50%;
+}
+
+.sk-cube-grid{
+  margin: 0 auto;
+}
+
+.exito-confirmacion{
+  text-align: justify;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #67b456;
+  font-weight: bold;
+  font-family: 'Roboto',sans-serif;
+}
+
+#notificacion_confirmacion,
+#notificacion_imposible,
+#notificacion_error{
+  background-color: #292846;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.50);
+  -webkit-box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.50);
+  -moz-box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.50);
+  font-family: 'Roboto', sans-serif;
+  width: 320px;
+  margin: auto;
+  display: none;
+}
+#notificacion_confirmacion p,
+#notificacion_imposible p,
+#notificacion_error p{
+  font-size: 14px;
+  line-height: 1.5;
+  display: inline-block;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#notificacion_confirmacion ul,
+#notificacion_imposible ul,
+#notificacion_error ul {
+  list-style: none;
+}
+#notificacion_confirmacion li,
+#notificacion_imposible li,
+#notificacion_error li {
+  font-size: 14px;
+  color:#fff;
+}
+#notificacion_confirmacion a,
+#notificacion_imposible a,
+#notificacion_error a{
+  text-decoration: none;
+}
+.sk-cube-grid {
+  width: 40px;
+  height: 40px;
+  margin: 100px auto;
+}
+
+.sk-cube-grid .sk-cube {
+  width: 33%;
+  height: 33%;
+  background-color: #fff;
+  float: left;
+  -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+          animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+}
+.sk-cube-grid .sk-cube1 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.sk-cube-grid .sk-cube2 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.sk-cube-grid .sk-cube3 {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s; }
+.sk-cube-grid .sk-cube4 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.sk-cube-grid .sk-cube5 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.sk-cube-grid .sk-cube6 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.sk-cube-grid .sk-cube7 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s; }
+.sk-cube-grid .sk-cube8 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.sk-cube-grid .sk-cube9 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+
+@-webkit-keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1);
+  }
+}
+
+@keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1);
+  }
+}

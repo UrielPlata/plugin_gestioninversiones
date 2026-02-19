@@ -1,0 +1,35 @@
+.col-botones-master {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 1.3rem 0rem 1.3rem;
+  column-gap: 1rem;
+}
+
+.cuerpo-dashboard .col-botones-master .button.button-large {
+  font-size: 1.2rem;
+  padding: 0 1.5rem;
+}
+.cuerpo-dashboard .tab-admconmaster .button.button-large,
+.cuerpo-dashboard .tab-rephistgral  .button.button-large {
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.cuerpo-dashboard .col-botones-master .button-primary{
+  background: #00aca3;
+border-color: #078d86;
+  border-radius: 10px;
+}
+
+.cuerpo-dashboard .col-botones-master .button-primary:hover{
+  background: #069c94;
+  border-color: #078d86;
+}
+
+span.diffpos{
+  color:#54e554;
+}
+span.diffmin{
+  color:#ff5c5c;
+}

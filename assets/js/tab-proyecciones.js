@@ -1,0 +1,47 @@
+$ = jQuery.noConflict();//para que el $ de jquery sea reconocido en el script
+
+/*=============================================
+Data Table
+=============================================*/
+
+
+  $(".tab-proyecinv").DataTable({
+    pageLength : 12,
+    lengthMenu: [[10, 12, -1], [10, 12, 'Todos']],
+    // columns: [
+    // { "orderSequence": [ "asc" ] },
+    // { "orderSequence": [ "desc", "asc", "asc" ] }
+    // ],
+    order: [ 0, 'asc' ],
+    "columnDefs": [
+      { "visible": false, "targets": 0 }
+    ],
+    // columns: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0],
+    "language": {
+
+      "sProcessing":     "Procesando...",
+      "sLengthMenu":     "Mostrar _MENU_ meses",
+      "sZeroRecords":    "No se encontraron resultados",
+      "sEmptyTable":     "Ningún dato disponible en esta tabla",
+      "sInfo":           "Mostrando meses ID del _START_ al _END_ de un total de _TOTAL_",
+      "sInfoEmpty":      "Mostrando meses ID del 0 al 0 de un total de 0",
+      "sInfoFiltered":   "(filtrado de un total de _MAX_ meses)",
+      "sInfoPostFix":    "",
+      "sSearch":         "Buscar:",
+      "sUrl":            "",
+      "sInfoThousands":  ",",
+      "sLoadingRecords": "Cargando...",
+      "oPaginate": {
+      "sFirst":    "Primero",
+      "sLast":     "Último",
+      "sNext":     "Anterior",
+      "sPrevious": "Siguiente"
+      },
+      "oAria": {
+        "sSortAscending":  ": Activar para ordenar la columna de manera ascendente",
+        "sSortDescending": ": Activar para ordenar la columna de manera descendente"
+      }
+
+    }
+
+  });

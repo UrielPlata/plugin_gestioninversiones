@@ -1,0 +1,147 @@
+.login {
+  background-color: #212038;
+  padding: 3.8rem 0;
+  color:#fff;
+}
+
+.language-switcher{
+  display: none;
+}
+
+body.login div#login {
+  background-color: #292846;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.50);
+  -webkit-box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.50);
+  -moz-box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.50);
+  font-family: 'Roboto', sans-serif;
+  color:#fff;
+}
+
+#loginform{
+  padding: 0px;
+  background-color: transparent;
+  border:none;
+  box-shadow: none;
+}
+
+#login h1 a {
+  background-image: url(../img/logo_theinc.png);
+  height: 125px;
+  width:100%;
+  margin: 0 0 25px;
+  background-size: 75%;
+  background-position: center;
+}
+
+#login form p, .user-pass-wrap {
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#backtoblog{
+  display: none;
+}
+
+.login label {
+  font-weight: bold;
+  color:#dfdddd;
+  margin-bottom: 15px;
+}
+
+.login form .input {
+  padding: 8px;
+  border-radius: 25px;
+  border: 1px solid #8c8f9485;
+  font-size: 14px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  background-color: #212038;
+}
+
+.login form .input:focus{
+  border: 2px solid #67b456;
+  box-shadow: 0 0 0 1px #67b456 !important;
+  outline: 2px solid transparent;
+}
+
+.login .button-primary {
+  display: block;
+  width: calc(100% - 15px);
+  border-radius: 25px;
+  padding: 5px 0px !important;
+  position: relative;
+  margin: 1rem auto;
+  float: inherit;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.dashicons-visibility {
+  color: #67b456;
+}
+
+.forgetmenot label{
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.wp-core-ui .button-primary{
+  border:none;
+  background: linear-gradient(231deg, rgba(103,180,86,1) 0%, rgba(111,240,50,1) 100%);
+  transition: all 1s ease;
+
+}
+
+.wp-core-ui .button-primary:hover{
+  background: rgb(111,240,50);
+  background: linear-gradient(231deg, rgba(111,240,50,1) 0%, rgba(103,180,86,1) 100%);
+  box-shadow: 0px 0px 12px 0px rgba(103,180,86,1);
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(103,180,86,1);
+  -moz-box-shadow: 0px 0px 12px 0px rgba(103,180,86,1);
+}
+.login #nav a{
+  color:#fff;
+}
+.login #nav a:hover {
+  color: #67b456;
+}
+
+.login_error{
+  display: none;
+  border-left: 4px solid #72aee6;
+  border-left-color: #d63638;
+  padding: 12px;
+  margin-left: 0;
+  margin-bottom: 20px;
+  background-color: #212038;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+  word-wrap: break-word;
+}
+
+#rememberme:hover{
+  border-color: #67b456;
+  box-shadow: 0px 0px 6px 0px rgb(239 139 4 / 30%);
+}
+
+#rememberme:checked,
+#rememberme:focus{
+  border-color: #67b456;
+
+}
+
+a.notuser{
+  display: block;
+margin: 1.4rem auto;
+max-width: fit-content;
+color: #67b456;
+}
+a.notuser:hover{
+  color: #67b456;
+}
+
+.login #login_error, .login .message, .login .success{
+  background-color: #212038;
+}

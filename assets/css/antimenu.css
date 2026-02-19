@@ -1,0 +1,12 @@
+.menu-escritorio{
+  display: none !important;
+}
+
+.antimenu-dashboard{
+  width: 100% !important;
+}
+
+.menu-responsive,
+#hamburguer-principal{
+  display: none !important;
+}
