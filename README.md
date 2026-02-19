@@ -170,7 +170,7 @@ Videos demo: https://drive.google.com/drive/folders/1GcZBnbpQoFqQrYYQoDUgDDKUgaY
 ### Home Panel
 
 
-![Home](assets/screenshots/demo-06.png)
+![Home](assets/screenshots/demo-06.jpg)
 
 ## 👨‍💻 Author
 
