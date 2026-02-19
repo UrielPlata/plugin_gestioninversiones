@@ -121,10 +121,10 @@ El desarrollo se basó en:
 
 ## 📦 Demo parcial online
 
-Link de demo: https://gestionclientes.miktlansoft.com/
-Usuario: andresh 
-Pass: DemoGestion49@
-Videos demo: https://drive.google.com/drive/folders/1GcZBnbpQoFqQrYYQoDUgDDKUgaYvY7fy?usp=drive_link
+- Link de demo: https://gestionclientes.miktlansoft.com/
+- Usuario: andresh 
+- Pass: DemoGestion49@
+- Videos demo: https://drive.google.com/drive/folders/1GcZBnbpQoFqQrYYQoDUgDDKUgaYvY7fy?usp=drive_link
 
 ## 📸 Interface Preview
 
